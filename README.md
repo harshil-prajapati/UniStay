@@ -37,15 +37,22 @@ UniStay is a web-based platform designed to help university students easily find
 
 Follow these steps to set up UniStay locally:
 
+#### Clone the repository
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/unistay.git
+git clone https://github.com/harshil-prajapati/unistay.git
+```
 
-# Navigate into the folder
+#### Navigate into the folder
+```bash
 cd unistay
+```
 
-# Install dependencies
+#### Install dependencies
+```bash
 npm install
+```
 
-# Start the development server
+#### Start the development server
+```bash
 npm start
+```
