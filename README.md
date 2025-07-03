@@ -44,3 +44,8 @@ npm install
 
 # Start the development server
 npm start
+
+## 👨‍💻 Project Makers
+
+- [Bhaumik Prajapati](https://github.com/bhaumikprajapati)  
+- [Harshil Prajapati](https://github.com/harshil-prajapati)
