@@ -28,6 +28,11 @@ UniStay is a web-based platform designed to help university students easily find
 
 ---
 
+## 👨‍💻 Project Makers
+
+- [Bhaumik Prajapati](https://github.com/bhaumikprajapati)  
+- [Harshil Prajapati](https://github.com/harshil-prajapati)
+
 ## 🚀 Getting Started
 
 Follow these steps to set up UniStay locally:
@@ -44,8 +49,3 @@ npm install
 
 # Start the development server
 npm start
-
-## 👨‍💻 Project Makers
-
-- [Bhaumik Prajapati](https://github.com/bhaumikprajapati)  
-- [Harshil Prajapati](https://github.com/harshil-prajapati)
