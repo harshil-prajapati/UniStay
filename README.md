@@ -1,51 +1,12 @@
-# 🏠 UniStay – Hostel Finder Platform for University Students
+# React + Vite
 
-UniStay is a web-based platform designed to help university students easily find nearby hostels based on filters like distance, price, and availability. At the same time, it enables hostel owners to list and manage their properties efficiently.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🎯 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### For Students
-- 🔍 Search and filter hostels by price and distance
-- 🛏️ View detailed hostel information (images, amenities, contact info)
-- ❤️ Save favorite hostels for quick access
-- 📝 Read and write reviews
+## Expanding the ESLint configuration
 
-### For Hostel Owners
-- 🏠 List hostels with photos, pricing, and facility details
-- 🛠️ Edit or remove listings anytime
-- 📬 Receive inquiries from interested students
-- 📊 Monitor listing performance (views, contact requests)
-
----
-
-## 🛠 Tech Stack
-
-- ⚛️ Frontend: React.js + Tailwind CSS  
-- 🔥 Backend & Database: Firebase (Authentication, Firestore, Storage)  
-- ☁️ Hosting: AWS or Hostinger
-
----
-
-## 👨‍💻 Project Makers
-
-- [Bhaumik Prajapati](https://github.com/bhaumikprajapati)  
-- [Harshil Prajapati](https://github.com/harshil-prajapati)
-
-## 🚀 Getting Started
-
-Follow these steps to set up UniStay locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/unistay.git
-
-# Navigate into the folder
-cd unistay
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
