@@ -13,7 +13,7 @@ import NotFound from './pages/NotFound/NotFound'
 
 function App() {
   return (
-    <Router>
+    <Router> //Change
       <Navbar />
       <div className="app">
         <Routes>
