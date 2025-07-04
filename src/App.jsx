@@ -13,7 +13,7 @@ import NotFound from './pages/NotFound/NotFound'
 
 function App() {
   return (
-    <Router> //Change
+    <Router> //Change  this
       <Navbar />
       <div className="app">
         <Routes>
@@ -25,7 +25,7 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
+      </div> 
       <Footer />
     </Router>
   )
