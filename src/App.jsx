@@ -10,10 +10,12 @@ import Admin from './pages/Admin/Admin'
 import AboutUs from './pages/AboutUs/AboutUs'
 import ContactUs from './pages/ContactUs/ContactUs'
 import NotFound from './pages/NotFound/NotFound'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/UniStay">
       <Navbar />
       <div className="app">
         <Routes>
@@ -23,7 +25,7 @@ function App() {
           <Route path="/Admin" element={<Admin />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/notfound" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
