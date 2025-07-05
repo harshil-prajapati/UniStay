@@ -13,8 +13,8 @@ import NotFound from './pages/NotFound/NotFound'
 
 function App() {
   return (
-    <Router> //Change  this
-      <Navbar />
+    <Router>
+      <Navbar /> // Now all good??
       <div className="app">
         <Routes>
           <Route path="/" element={<Home />} />
